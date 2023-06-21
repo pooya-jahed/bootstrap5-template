@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="arb" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Bootstrap Sass &amp; JS</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Another Link</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-xxl">
+      <div class="row mt-3">
+        <div class="col-lg-4 col-md-6">
+          <div class="mt-3 mb-3">
+            <p>
+              Hello this is body text, Documentation and examples for common
+              text utilities to control alignment, wrapping, weight, and more.
+            </p>
+          </div>
+
+          <div class="mt-5 mb-5">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button>
+          </div>
+          <div class="mt-5 mb-5">
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              Secondary
+            </button>
+            <button type="button" class="btn btn-outline-success">
+              Success
+            </button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">
+              Warning
+            </button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+          </div>
+          <div class="mt-3 mb-3">
+            <p class="fs-1">.fs-1 text</p>
+            <p class="fs-2">.fs-2 text</p>
+            <p class="fs-3">.fs-3 text</p>
+            <p class="fs-4">.fs-4 text</p>
+            <p class="fs-5">.fs-5 text</p>
+            <p class="fs-6">.fs-6 text</p>
+          </div>
+
+          <div class="mt-5 mb-3">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary">Left</button>
+              <button type="button" class="btn btn-primary">Middle</button>
+              <button type="button" class="btn btn-primary">Right</button>
+            </div>
+          </div>
+          <div class="my-3">
+            <div
+              class="btn-group btn-group-lg"
+              role="group"
+              aria-label="Large button group"
+            >
+              <button type="button" class="btn btn-outline-primary">
+                Left
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Middle
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Right
+              </button>
+            </div>
+            <br />
+            <div
+              class="btn-group my-3"
+              role="group"
+              aria-label="Default button group"
+            >
+              <button type="button" class="btn btn-outline-primary">
+                Left
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Middle
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Right
+              </button>
+            </div>
+            <br />
+            <div
+              class="btn-group btn-group-sm my-2"
+              role="group"
+              aria-label="Small button group"
+            >
+              <button type="button" class="btn btn-outline-primary">
+                Left
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Middle
+              </button>
+              <button type="button" class="btn btn-outline-primary">
+                Right
+              </button>
+            </div>
+          </div>
+          <div class="mt-3 mb-3">
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Basic mixed styles example"
+            >
+              <button type="button" class="btn btn-danger">Left</button>
+              <button type="button" class="btn btn-warning">Middle</button>
+              <button type="button" class="btn btn-success">Right</button>
+            </div>
+          </div>
+          <div class="mt-3 mb-3">
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Button group with nested dropdown"
+            >
+              <button type="button" class="btn btn-primary">1</button>
+              <button type="button" class="btn btn-primary">2</button>
+
+              <div class="btn-group" role="group">
+                <button
+                  id="btnGroupDrop1"
+                  type="button"
+                  class="btn btn-primary dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row mt-5 mb-3">
+              <div class="col-3 p-4 border border-primary me-2 my-2"></div>
+              <div class="col-3 p-4 border border-secondary me-2 my-2"></div>
+              <div class="col-3 p-4 border border-success me-2 my-2"></div>
+              <div class="col-3 p-4 border border-danger me-2 my-2"></div>
+              <div class="col-3 p-4 border border-warning me-2 my-2"></div>
+              <div class="col-3 p-4 border border-info me-2 my-2"></div>
+              <div class="col-3 p-4 border border-light me-2 my-2"></div>
+              <div class="col-3 p-4 border border-dark me-2 my-2"></div>
+              <div class="col-3 p-4 border border-white me-2 my-2"></div>
+            </div>
+            <div class="row mt-3 mb-3 d-flex d-block">
+              <div class="col-3 p-4 border border-1 me-2 my-2"></div>
+              <div class="col-3 p-4 border border-2 me-2 my-2"></div>
+              <div class="col-3 p-4 border border-3 me-2 my-2"></div>
+              <div class="col-3 p-4 border border-4 me-2 my-2"></div>
+              <div class="col-3 p-4 border border-5 me-2 my-2"></div>
+            </div>
+
+            <div class="mt-3 mb-3">
+              <table class="table table-bordered border-primary">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div>
+                <p class="muted">
+                  Placeholder text to demonstrate some
+                  <a
+                    href="#"
+                    data-bs-toggle="tooltip"
+                    data-bs-title="Default tooltip"
+                    >inline links</a
+                  >
+                  with tooltips. This is now just filler, no killer. Content
+                  placed here just to mimic the presence of
+                  <a
+                    href="#"
+                    data-bs-toggle="tooltip"
+                    data-bs-title="Another tooltip"
+                    >real text</a
+                  >. And all that just to give you an idea of how tooltips would
+                  look when used in real-world situations. So hopefully you've
+                  now seen how
+                  <a
+                    href="#"
+                    data-bs-toggle="tooltip"
+                    data-bs-title="Another one here too"
+                    >these tooltips on links</a
+                  >
+                  can work in practice, once you use them on
+                  <a
+                    href="#"
+                    data-bs-toggle="tooltip"
+                    data-bs-title="The last tip!"
+                    >your own</a
+                  >
+                  site or project.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div id="liveAlertPlaceholder"></div>
+          <button type="button" class="btn btn-primary" id="liveAlertBtn">
+            Show live alert
+          </button>
+          <button type="button" class="btn-close" aria-label="Close"></button>
+          <button
+            type="button"
+            class="btn-close"
+            disabled
+            aria-label="Close"
+          ></button>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination my-3">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            type="button"
+            class="btn btn-sm btn-danger"
+            data-bs-toggle="popover"
+            data-bs-title="Popover title"
+            data-bs-content="And here's some amazing content. It's very engaging. Right?"
+          >
+            Click to toggle popover
+          </button>
+          <div class="row px-3 my-3">
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="primary example"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-primary" style="width: 0%">
+                0%
+              </div>
+            </div>
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="secondary example"
+              aria-valuenow="15"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-secondary" style="width: 15%">
+                15%
+              </div>
+            </div>
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="success example"
+              aria-valuenow="30"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-success" style="width: 30%">
+                30%
+              </div>
+            </div>
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="Warning example"
+              aria-valuenow="45"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar text-bg-warning progress-bar-striped"
+                style="width: 45%"
+              >
+                45%
+              </div>
+            </div>
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="info example"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-info" style="width: 60%">
+                60%
+              </div>
+            </div>
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="danger example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar text-bg-danger progress-bar-striped progress-bar-animated"
+                style="width: 75%"
+              >
+                75%
+              </div>
+            </div>
+            <div
+              class="progress my-1"
+              role="progressbar"
+              aria-label="light example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar text-bg-light" style="width: 100%">
+                100%
+              </div>
+            </div>
+          </div>
+          <div class="mt-3 mb-3">
+            <div class="alert alert-primary" role="alert">
+              A simple primary alert—check it out!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+              A simple secondary alert—check it out!
+            </div>
+            <div class="alert alert-success" role="alert">
+              A simple success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              A simple danger alert—check it out!
+            </div>
+            <div class="alert alert-warning" role="alert">
+              A simple warning alert—check it out!
+            </div>
+            <div class="alert alert-info" role="alert">
+              A simple info alert—check it out!
+            </div>
+            <div class="alert alert-light" role="alert">
+              A simple light alert—check it out!
+            </div>
+            <div class="alert alert-dark" role="alert">
+              A simple dark alert—check it out!
+            </div>
+          </div>
+          <div class="mt-3 mb-3">
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+            <h1 class="display-5">Display 5</h1>
+            <h1 class="display-6">Display 6</h1>
+          </div>
+          <div class="mt-3 mb-3">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3 mb-3">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+              </ol>
+            </nav>
+
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Library
+                </li>
+              </ol>
+            </nav>
+
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="mt-3 mb-3">
+            <span class="badge bg-primary">Primary</span>
+            <span class="badge bg-secondary">Secondary</span>
+            <span class="badge bg-success">Success</span>
+            <span class="badge bg-danger">Danger</span>
+            <span class="badge bg-warning text-dark">Warning</span>
+            <span class="badge bg-info text-dark">Info</span>
+            <span class="badge bg-light text-dark">Light</span>
+            <span class="badge bg-dark">Dark</span>
+          </div>
+          <div class="mt-3 mb-3">
+            <span class="badge rounded-pill bg-primary">Primary</span>
+            <span class="badge rounded-pill bg-secondary">Secondary</span>
+            <span class="badge rounded-pill bg-success">Success</span>
+            <span class="badge rounded-pill bg-danger">Danger</span>
+            <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+            <span class="badge rounded-pill bg-info text-dark">Info</span>
+            <span class="badge rounded-pill bg-light text-dark">Light</span>
+            <span class="badge rounded-pill bg-dark">Dark</span>
+          </div>
+
+          <div class="mt-3 mb-3">
+            <div class="card text-white bg-primary mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Primary card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-white bg-secondary mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Secondary card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-white bg-success mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-white bg-danger mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Danger card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-dark bg-warning mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Warning card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-dark bg-info mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Info card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-dark bg-light mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Light card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-header">Header</div>
+              <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary" id="liveToastBtn">
+            Show live toast
+          </button>
+
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div
+              id="liveToast"
+              class="toast"
+              role="alert"
+              aria-live="assertive"
+              aria-atomic="true"
+            >
+              <div class="toast-header">
+                <img
+                  src="/assets/icon-svg/All/outline/card.svg"
+                  class="rounded me-2"
+                  alt="..."
+                />
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="toast"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="toast-body">
+                Hello, world! This is a toast message.
+              </div>
+            </div>
+          </div>
+          <div class="shadow-none p-3 mb-5 bg-body-tertiary rounded">
+            No shadow
+          </div>
+          <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+            Small shadow
+          </div>
+          <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+            Regular shadow
+          </div>
+          <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            Larger shadow
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 my-2">
+          <button class="btn btn-primary" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+          <button class="btn btn-secondary" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+
+          <button class="btn btn-success" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+
+          <button class="btn btn-danger" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+
+          <button class="btn btn-warning" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+
+          <button class="btn btn-info" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+
+          <button class="btn btn-light" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+          <div class="justify-content-center my-5">
+            <div
+              id="slides-with-indicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  class="active"
+                  type="button"
+                  data-bs-target="#slides-with-indicators"
+                  data-bs-slide-to="0"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  class="active"
+                  type="button"
+                  data-bs-target="#slides-with-indicators"
+                  data-bs-slide-to="1"
+                  aria-current="true"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  class="active"
+                  type="button"
+                  data-bs-target="#slides-with-indicators"
+                  data-bs-slide-to="2"
+                  aria-current="true"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100"
+                    src="/assets/img/image-1.png"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First Carousel Caption</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nihil quam, eveniet illo aspernatur
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/assets/img/image-2.png"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second Carousel Caption</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nihil quam, eveniet illo aspernatur
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="/assets/img/image-2.png"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third Carousel Caption</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nihil quam, eveniet illo aspernatur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#slides-with-indicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#slides-with-indicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 my-3">
+          <ul class="list-group">
+            <li class="list-group-item mb-2">
+              A simple default list group item
+            </li>
+
+            <li class="list-group-item list-group-item-primary mb-2">
+              A simple primary list group item
+            </li>
+            <li class="list-group-item list-group-item-secondary mb-2">
+              A simple secondary list group item
+            </li>
+            <li class="list-group-item list-group-item-success mb-2">
+              A simple success list group item
+            </li>
+            <li class="list-group-item list-group-item-danger mb-2">
+              A simple danger list group item
+            </li>
+            <li class="list-group-item list-group-item-warning mb-2">
+              A simple warning list group item
+            </li>
+            <li class="list-group-item list-group-item-info mb-2">
+              A simple info list group item
+            </li>
+            <li class="list-group-item list-group-item-light mb-2">
+              A simple light list group item
+            </li>
+            <li class="list-group-item list-group-item-dark mb-2">
+              A simple dark list group item
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 my-3">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <input
+                class="form-check-input me-1"
+                type="radio"
+                name="listGroupRadio"
+                value=""
+                id="firstRadio"
+                checked
+              />
+              <label class="form-check-label" for="firstRadio"
+                >First radio</label
+              >
+            </li>
+            <li class="list-group-item">
+              <input
+                class="form-check-input me-1"
+                type="radio"
+                name="listGroupRadio"
+                value=""
+                id="secondRadio"
+              />
+              <label class="form-check-label" for="secondRadio"
+                >Second radio</label
+              >
+            </li>
+            <li class="list-group-item">
+              <input
+                class="form-check-input me-1"
+                type="radio"
+                name="listGroupRadio"
+                value=""
+                id="thirdRadio"
+              />
+              <label class="form-check-label" for="thirdRadio"
+                >Third radio</label
+              >
+            </li>
+          </ul>
+          <hr />
+          <ul class="list-group">
+            <li class="list-group-item">
+              <input
+                class="form-check-input me-1"
+                type="checkbox"
+                value=""
+                id="firstCheckboxStretched"
+              />
+              <label
+                class="form-check-label stretched-link"
+                for="firstCheckboxStretched"
+                >First checkbox</label
+              >
+            </li>
+            <li class="list-group-item">
+              <input
+                class="form-check-input me-1"
+                type="checkbox"
+                value=""
+                id="secondCheckboxStretched"
+              />
+              <label
+                class="form-check-label stretched-link"
+                for="secondCheckboxStretched"
+                >Second checkbox</label
+              >
+            </li>
+            <li class="list-group-item">
+              <input
+                class="form-check-input me-1"
+                type="checkbox"
+                value=""
+                id="thirdCheckboxStretched"
+              />
+              <label
+                class="form-check-label stretched-link"
+                for="thirdCheckboxStretched"
+                >Third checkbox</label
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-6">
+          <p class="fw-bold">Bold text.</p>
+          <p class="fw-bolder">
+            Bolder weight text (relative to the parent element).
+          </p>
+          <p class="fw-semibold">Semibold weight text.</p>
+          <p class="fw-medium">Medium weight text.</p>
+          <p class="fw-normal">Normal weight text.</p>
+          <p class="fw-light">Light weight text.</p>
+          <p class="fw-lighter">
+            Lighter weight text (relative to the parent element).
+          </p>
+          <p class="fst-italic">Italic text.</p>
+          <p class="fst-normal">Text with normal font style</p>
+        </div>
+        <div class="col-6">
+          <p class="lh-1">
+            This is a long paragraph written to show how the line-height of an
+            element is affected by our utilities. Classes are applied to the
+            element itself or sometimes the parent element. These classes can be
+            customized as needed with our utility API.
+          </p>
+          <p class="lh-sm">
+            This is a long paragraph written to show how the line-height of an
+            element is affected by our utilities. Classes are applied to the
+            element itself or sometimes the parent element. These classes can be
+            customized as needed with our utility API.
+          </p>
+          <p class="lh-base">
+            This is a long paragraph written to show how the line-height of an
+            element is affected by our utilities. Classes are applied to the
+            element itself or sometimes the parent element. These classes can be
+            customized as needed with our utility API.
+          </p>
+          <p class="lh-lg">
+            This is a long paragraph written to show how the line-height of an
+            element is affected by our utilities. Classes are applied to the
+            element itself or sometimes the parent element. These classes can be
+            customized as needed with our utility API.
+          </p>
+        </div>
+        <hr />
+        <div class="col-3 my-3">
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded bg-primary h-25 w-25 m-1" alt="..." />
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-top bg-primary h-25 w-25 m-1" alt="..." />
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-end bg-primary h-25 w-25 m-1" alt="..." />
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-bottom bg-primary h-25 w-25 m-1" alt="..." />
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-start bg-primary h-25 w-25 m-1" alt="..." />
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-circle bg-primary h-25 w-25 m-1" alt="..." />
+          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-pill bg-primary h-25 w-25 m-1" alt="..." />
+        </div>
+        <div class="col-3 my-3">
+          <p class="text-warning bg-dark">.text-warning</p>
+          <p class="text-warning-emphasis">.text-warning-emphasis</p>
+          <p class="text-info bg-dark">.text-info</p>
+          <p class="text-info-emphasis">.text-info-emphasis</p>
+          <p class="text-light bg-dark">.text-light</p>
+          <p class="text-light-emphasis">.text-light-emphasis</p>
+          <p class="text-dark bg-white">.text-dark</p>
+          <p class="text-dark-emphasis">.text-dark-emphasis</p>
+        </div>
+        <div class="col-3 my-3">
+          <div class="border border-success p-2 mb-2">
+            This is default success border
+          </div>
+          <div class="border border-success p-2 mb-2 border-opacity-75">
+            This is 75% opacity success border
+          </div>
+          <div class="border border-success p-2 mb-2 border-opacity-50">
+            This is 50% opacity success border
+          </div>
+          <div class="border border-success p-2 mb-2 border-opacity-25">
+            This is 25% opacity success border
+          </div>
+          <div class="border border-success p-2 border-opacity-10">
+            This is 10% opacity success border
+          </div>
+        </div>
+        <div class="col-3 my-3">
+          <div class="text-primary">This is default primary text</div>
+          <div class="text-primary text-opacity-75">
+            This is 75% opacity primary text
+          </div>
+          <div class="text-primary text-opacity-50">
+            This is 50% opacity primary text
+          </div>
+          <div class="text-primary text-opacity-25">
+            This is 25% opacity primary text
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

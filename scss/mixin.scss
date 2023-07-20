@@ -1,0 +1,29 @@
+
+    @font-face {
+        $font-path: "/assets/fonts/";
+        font-family:Estedad-Regular;
+        font-weight:normal;
+        font-style:normal;
+        src: url(#{$font-path}Estedad-Regular.woff2) format("woff2");
+      }
+      @font-face {
+        $font-path: "/assets/fonts/";
+        font-family:Estedad-Medium;
+        font-weight:normal;
+        font-style:normal;
+        src:url(#{$font-path}Estedad-Medium.woff2) format("woff2");
+      }
+      @font-face {
+        $font-path: "/assets/fonts/";
+        font-family:Estedad-SemiBold;
+        font-weight:normal;
+        font-style:normal;
+        src:url(#{$font-path}Estedad-SemiBold.woff2) format("woff2");
+      }
+      @font-face {
+        $font-path: "/assets/fonts/";
+        font-family:Estedad-Bold;
+        font-weight:normal;
+        font-style:normal;
+        src:url(#{$font-path}Estedad-Bold.woff2) format("woff2");
+      }

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="arb" dir="rtl">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Bootstrap Sass &amp; JS</title>
+
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">نوبار</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -25,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">خانه</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">لینک</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -39,20 +40,20 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                دراپ دون
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">اکشن</a></li>
+                <li><a class="dropdown-item" href="#">یک اکشن دیگر</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">یک چیز دیگر</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-                >Another Link</a
+                >یک لینک دیگر</a
               >
             </li>
             <li class="nav-item">
@@ -61,7 +62,7 @@
                 href="#"
                 tabindex="-1"
                 aria-disabled="true"
-                >Disabled</a
+                >غیرفعال</a
               >
             </li>
           </ul>
@@ -69,12 +70,10 @@
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="جست و جو"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <button class="btn btn-outline-success" type="submit">سرچ</button>
           </form>
         </div>
       </div>
@@ -84,70 +83,72 @@
         <div class="col-lg-4 col-md-6">
           <div class="mt-3 mb-3">
             <p>
-              Hello this is body text, Documentation and examples for common
-              text utilities to control alignment, wrapping, weight, and more.
+              این یک متن بادی هست و یک نمونه برای متن های قسمت ابزار ها درون بوت
+              استرپ برای کنترل تراز و ورپ کردن و وزن ها و ...
             </p>
           </div>
 
           <div class="mt-5 mb-5">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-dark">Dark</button>
-            <button type="button" class="btn btn-link">Link</button>
+            <button type="button" class="btn btn-primary mb-2">اصلی</button>
+            <button type="button" class="btn btn-secondary mb-2">ثانویه</button>
+            <button type="button" class="btn btn-success mb-2">سبز</button>
+            <button type="button" class="btn btn-danger mb-2">قرمز</button>
+            <button type="button" class="btn btn-warning mb-2">زرد</button>
+            <button type="button" class="btn btn-info mb-2">آبی روشن</button>
+            <button type="button" class="btn btn-light">روشن</button>
+            <button type="button" class="btn btn-dark">تیره</button>
+            <button type="button" class="btn btn-link">لینک</button>
           </div>
           <div class="mt-5 mb-5">
-            <button type="button" class="btn btn-outline-primary">
-              Primary
-            </button>
+            <button type="button" class="btn btn-outline-primary">اصلی</button>
             <button type="button" class="btn btn-outline-secondary">
-              Secondary
+              ثانویه
             </button>
-            <button type="button" class="btn btn-outline-success">
-              Success
+            <button type="button" class="btn btn-outline-success">سبز</button>
+            <button type="button" class="btn btn-outline-danger">قرمز</button>
+            <button type="button" class="btn btn-outline-warning">زرد</button>
+            <button type="button" class="btn btn-outline-info">
+              آبی کمرنگ
             </button>
-            <button type="button" class="btn btn-outline-danger">Danger</button>
-            <button type="button" class="btn btn-outline-warning">
-              Warning
+            <button type="button" class="btn btn-outline-light mt-2">
+              روشن
             </button>
-            <button type="button" class="btn btn-outline-info">Info</button>
-            <button type="button" class="btn btn-outline-light">Light</button>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-dark mt-2">
+              تیره
+            </button>
           </div>
           <div class="mt-3 mb-3">
-            <p class="fs-1">.fs-1 text</p>
-            <p class="fs-2">.fs-2 text</p>
-            <p class="fs-3">.fs-3 text</p>
-            <p class="fs-4">.fs-4 text</p>
-            <p class="fs-5">.fs-5 text</p>
-            <p class="fs-6">.fs-6 text</p>
+            <p class="fs-1">fs-1. متن</p>
+            <p class="fs-2">fs-2. متن</p>
+            <p class="fs-3">fs-3. متن</p>
+            <p class="fs-4">fs-4. متن</p>
+            <p class="fs-5">fs-5. متن</p>
+            <p class="fs-6">fs-6. متن</p>
           </div>
 
-          <div class="mt-5 mb-3">
-            <div class="btn-group" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-primary">Left</button>
-              <button type="button" class="btn btn-primary">Middle</button>
-              <button type="button" class="btn btn-primary">Right</button>
+          <div class="mt-5 mb-3 text-d">
+            <div
+              class="btn-group"
+              style="direction: ltr"
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn btn-primary">چپ</button>
+              <button type="button" class="btn btn-primary">وسط</button>
+              <button type="button" class="btn btn-primary">راست</button>
             </div>
           </div>
           <div class="my-3">
             <div
               class="btn-group btn-group-lg"
+              style="direction: ltr"
               role="group"
               aria-label="Large button group"
             >
+              <button type="button" class="btn btn-outline-primary">چپ</button>
+              <button type="button" class="btn btn-outline-primary">وسط</button>
               <button type="button" class="btn btn-outline-primary">
-                Left
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Middle
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Right
+                راست
               </button>
             </div>
             <br />
@@ -155,53 +156,49 @@
               class="btn-group my-3"
               role="group"
               aria-label="Default button group"
+              style="direction: ltr"
             >
+              <button type="button" class="btn btn-outline-primary">چپ</button>
+              <button type="button" class="btn btn-outline-primary">وسط</button>
               <button type="button" class="btn btn-outline-primary">
-                Left
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Middle
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Right
+                راست
               </button>
             </div>
             <br />
             <div
               class="btn-group btn-group-sm my-2"
+              style="direction: ltr"
               role="group"
               aria-label="Small button group"
             >
+              <button type="button" class="btn btn-outline-primary">چپ</button>
+              <button type="button" class="btn btn-outline-primary">وسط</button>
               <button type="button" class="btn btn-outline-primary">
-                Left
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Middle
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Right
+                راست
               </button>
             </div>
           </div>
           <div class="mt-3 mb-3">
             <div
               class="btn-group"
+              style="direction: ltr"
               role="group"
               aria-label="Basic mixed styles example"
             >
-              <button type="button" class="btn btn-danger">Left</button>
-              <button type="button" class="btn btn-warning">Middle</button>
-              <button type="button" class="btn btn-success">Right</button>
+              <button type="button" class="btn btn-danger">چپ</button>
+              <button type="button" class="btn btn-warning">وسط</button>
+              <button type="button" class="btn btn-success">راست</button>
             </div>
           </div>
           <div class="mt-3 mb-3">
             <div
               class="btn-group"
+              style="direction: ltr"
               role="group"
               aria-label="Button group with nested dropdown"
             >
-              <button type="button" class="btn btn-primary">1</button>
-              <button type="button" class="btn btn-primary">2</button>
+              <button type="button" class="btn btn-primary">۱</button>
+              <button type="button" class="btn btn-primary">۲</button>
 
               <div class="btn-group" role="group">
                 <button
@@ -211,11 +208,11 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  دراپ دون
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">لینک دراپ دون</a></li>
+                  <li><a class="dropdown-item" href="#">لینک دراپ دون</a></li>
                 </ul>
               </div>
             </div>
@@ -243,28 +240,28 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">نام</th>
+                    <th scope="col">نام خانوادگی</th>
+                    <th scope="col">دسته</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>مارک</td>
+                    <td>اتو</td>
+                    <td style="direction: ltr">@mdo</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>جاکوب</td>
+                    <td>تورنتون</td>
+                    <td style="direction: ltr">@fat</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td colspan="2">لاری پرنده</td>
+                    <td style="direction: ltr">@twitter</td>
                   </tr>
                 </tbody>
               </table>
@@ -274,31 +271,31 @@
                   <a
                     href="#"
                     data-bs-toggle="tooltip"
-                    data-bs-title="Default tooltip"
-                    >inline links</a
+                    data-bs-title="تول تیپ پیش فرض"
+                    >اینلاین لینک</a
                   >
                   with tooltips. This is now just filler, no killer. Content
                   placed here just to mimic the presence of
                   <a
                     href="#"
                     data-bs-toggle="tooltip"
-                    data-bs-title="Another tooltip"
-                    >real text</a
+                    data-bs-title="یک تول تیپ دیگر"
+                    >متن واقعی</a
                   >. And all that just to give you an idea of how tooltips would
                   look when used in real-world situations. So hopefully you've
                   now seen how
                   <a
                     href="#"
                     data-bs-toggle="tooltip"
-                    data-bs-title="Another one here too"
-                    >these tooltips on links</a
+                    data-bs-title="همچنین یکی دیگر این جا"
+                    >این تول تیپس ها روی لینک ها</a
                   >
                   can work in practice, once you use them on
                   <a
                     href="#"
                     data-bs-toggle="tooltip"
-                    data-bs-title="The last tip!"
-                    >your own</a
+                    data-bs-title="اخرین تول تیپ!"
+                    >مربوط به شما</a
                   >
                   site or project.
                 </p>
@@ -310,7 +307,7 @@
         <div class="col-lg-4 col-md-6">
           <div id="liveAlertPlaceholder"></div>
           <button type="button" class="btn btn-primary" id="liveAlertBtn">
-            Show live alert
+            نمایش یک لایو آلرت
           </button>
           <button type="button" class="btn-close" aria-label="Close"></button>
           <button
@@ -322,16 +319,21 @@
           <nav aria-label="Page navigation example">
             <ul class="pagination my-3">
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
+                <a
+                  class="page-link"
+                  href="#"
+                  aria-label="Previous"
+                  style="transform: rotate(180deg)"
+                >
+                  <span aria-hidden="true">&raquo;</span>
                 </a>
               </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
+              <li class="page-item"><a class="page-link" href="#">۱</a></li>
+              <li class="page-item"><a class="page-link" href="#">۲</a></li>
+              <li class="page-item"><a class="page-link" href="#">۳</a></li>
+              <li class="page-item" style="transform: rotate(180deg)">
                 <a class="page-link" href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
+                  <span aria-hidden="true">&laquo;</span>
                 </a>
               </li>
             </ul>
@@ -340,10 +342,10 @@
             type="button"
             class="btn btn-sm btn-danger"
             data-bs-toggle="popover"
-            data-bs-title="Popover title"
-            data-bs-content="And here's some amazing content. It's very engaging. Right?"
+            data-bs-title="عنوان پاپ اور"
+            data-bs-content="این جا می توانید یک محتوا اضافه کید "
           >
-            Click to toggle popover
+            برای بالا آمدن پاپ اور کلیک کنید
           </button>
           <div class="row px-3 my-3">
             <div
@@ -367,7 +369,7 @@
               aria-valuemax="100"
             >
               <div class="progress-bar text-bg-secondary" style="width: 15%">
-                15%
+                ۱۵٪
               </div>
             </div>
             <div
@@ -379,7 +381,7 @@
               aria-valuemax="100"
             >
               <div class="progress-bar text-bg-success" style="width: 30%">
-                30%
+                ۳۰٪
               </div>
             </div>
             <div
@@ -394,7 +396,7 @@
                 class="progress-bar text-bg-warning progress-bar-striped"
                 style="width: 45%"
               >
-                45%
+                ۴۵٪
               </div>
             </div>
             <div
@@ -406,7 +408,7 @@
               aria-valuemax="100"
             >
               <div class="progress-bar text-bg-info" style="width: 60%">
-                60%
+                ۶۰٪
               </div>
             </div>
             <div
@@ -421,7 +423,7 @@
                 class="progress-bar text-bg-danger progress-bar-striped progress-bar-animated"
                 style="width: 75%"
               >
-                75%
+                ۷۵٪
               </div>
             </div>
             <div
@@ -433,43 +435,44 @@
               aria-valuemax="100"
             >
               <div class="progress-bar text-bg-light" style="width: 100%">
-                100%
+                ۱۰۰٪
               </div>
             </div>
           </div>
           <div class="mt-3 mb-3">
             <div class="alert alert-primary" role="alert">
-              A simple primary alert—check it out!
+              یک نمونه رنگ اصلی آلرت باکس !
             </div>
             <div class="alert alert-secondary" role="alert">
-              A simple secondary alert—check it out!
+              یک نمونه رنگ ثانویه آلرت باکس !
             </div>
             <div class="alert alert-success" role="alert">
-              A simple success alert—check it out!
+              یک نمونه رنگ سبز آلرت باکس !
             </div>
             <div class="alert alert-danger" role="alert">
-              A simple danger alert—check it out!
+              یک نمونه رنگ قرمز آلرت باکس !
             </div>
             <div class="alert alert-warning" role="alert">
-              A simple warning alert—check it out!
+              یک نمونه رنگ زرد آلرت باکس !
             </div>
             <div class="alert alert-info" role="alert">
-              A simple info alert—check it out!
+              یک نمونه رنگ آبی روشن آلرت باکس !
             </div>
             <div class="alert alert-light" role="alert">
-              A simple light alert—check it out!
+              یک نمونه رنگ روشن آلرت باکس !
             </div>
             <div class="alert alert-dark" role="alert">
-              A simple dark alert—check it out!
+              یک نمونه رنگ تیره آلرت باکس !
             </div>
           </div>
           <div class="mt-3 mb-3">
-            <h1 class="display-1">Display 1</h1>
-            <h1 class="display-2">Display 2</h1>
-            <h1 class="display-3">Display 3</h1>
-            <h1 class="display-4">Display 4</h1>
-            <h1 class="display-5">Display 5</h1>
-            <h1 class="display-6">Display 6</h1>
+            <h1 class="display-1">عنوان-۱</h1>
+            <h1 class="display-2">عنوان-۲</h1>
+            <h1 class="display-3">عنوان-۳</h1>
+            <h1 class="display-4">عنوان-۴</h1>
+            <h1 class="display-5">عنوان-۵</h1>
+            <h1 class="display-6">عنوان-۶</h1>
+            <h1 class="display-7">عنوان-۷</h1>
           </div>
           <div class="mt-3 mb-3">
             <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -483,7 +486,7 @@
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseOne"
                   >
-                    Accordion Item #1
+                    آکاردئون شماره #۱
                   </button>
                 </h2>
                 <div
@@ -492,15 +495,14 @@
                   aria-labelledby="panelsStayOpen-headingOne"
                 >
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>این اولین آیتم از بدنه اکاردئون است.</strong> که به
+                    صورت پیش فرض نمایش داده می شود تا زمانی که کلپس پلاگین کلاس
+                    مناسب برای استایل دهی به هر المان را جایگزین کند,پلاگین کلپس
+                    این کلاس ها را برای ایجاد کنترل بر روی ظاهر کلی اضافه .میکند
+                    شما میتوانید تغییر بدهید هر کدام از این ها را توسط تنظیمات
+                    کاستوم سی اس اس .یا بازنویسی بر روی متغییر های پیش .فرض ما
+                    شایان ذکر است با وجود اینکه ترنزیشن محدود میکند سر ریز که کد
+                    اچ تی ام ال <code>accordion-body. </code>را
                   </div>
                 </div>
               </div>
@@ -514,7 +516,7 @@
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseTwo"
                   >
-                    Accordion Item #2
+                    آکاردئون شماره #۲
                   </button>
                 </h2>
                 <div
@@ -523,15 +525,14 @@
                   aria-labelledby="panelsStayOpen-headingTwo"
                 >
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>این دومین آیتم از بدنه اکاردئون است.</strong> که به
+                    صورت پیش فرض نمایش داده می شود تا زمانی که کلپس پلاگین کلاس
+                    مناسب برای استایل دهی به هر المان را جایگزین کند,پلاگین کلپس
+                    این کلاس ها را برای ایجاد کنترل بر روی ظاهر کلی اضافه .میکند
+                    شما میتوانید تغییر بدهید هر کدام از این ها را توسط تنظیمات
+                    کاستوم سی اس اس .یا بازنویسی بر روی متغییر های پیش .فرض ما
+                    شایان ذکر است با وجود اینکه ترنزیشن محدود میکند سر ریز که کد
+                    اچ تی ام ال <code>accordion-body. </code>را
                   </div>
                 </div>
               </div>
@@ -545,7 +546,7 @@
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree"
                   >
-                    Accordion Item #3
+                    آکاردئون شماره #۳
                   </button>
                 </h2>
                 <div
@@ -554,15 +555,14 @@
                   aria-labelledby="panelsStayOpen-headingThree"
                 >
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>این سومین آیتم از بدنه اکاردئون است.</strong> که به
+                    صورت پیش فرض نمایش داده می شود تا زمانی که کلپس پلاگین کلاس
+                    مناسب برای استایل دهی به هر المان را جایگزین کند,پلاگین کلپس
+                    این کلاس ها را برای ایجاد کنترل بر روی ظاهر کلی اضافه .میکند
+                    شما میتوانید تغییر بدهید هر کدام از این ها را توسط تنظیمات
+                    کاستوم سی اس اس .یا بازنویسی بر روی متغییر های پیش .فرض ما
+                    شایان ذکر است با وجود اینکه ترنزیشن محدود میکند سر ریز که کد
+                    اچ تی ام ال <code>accordion-body. </code>را
                   </div>
                 </div>
               </div>
@@ -571,24 +571,30 @@
           <div class="mt-3 mb-3">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">خانه</li>
               </ol>
             </nav>
 
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <nav aria-label="breadcrumb ">
+              <ol
+                class="breadcrumb d-flex flex-row-reverse justify-content-end"
+              >
                 <li class="breadcrumb-item active" aria-current="page">
-                  Library
+                  کتابخانه
                 </li>
+                <li class="breadcrumb-item"><a href="#">خانه</a></li>
               </ol>
             </nav>
 
             <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Library</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Data</li>
+              <ol
+                class="breadcrumb d-flex flex-row-reverse justify-content-end"
+              >
+                <li class="breadcrumb-item active" aria-current="page">
+                  اطلاعات
+                </li>
+                <li class="breadcrumb-item"><a href="#">کتابخانه</a></li>
+                <li class="breadcrumb-item"><a href="#">خانه</a></li>
               </ol>
             </nav>
           </div>
@@ -618,91 +624,91 @@
 
           <div class="mt-3 mb-3">
             <div class="card text-white bg-primary mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Primary card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ اصلی</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-white bg-secondary mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Secondary card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ ثانویه</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-white bg-success mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Success card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ سبز</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-white bg-danger mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Danger card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ قرمز</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-dark bg-warning mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Warning card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ زرد</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-dark bg-info mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Info card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ آبی روشن</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-dark bg-light mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Light card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ روشن</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
             <div class="card text-white bg-dark mb-3">
-              <div class="card-header">Header</div>
+              <div class="card-header">هدر کارت</div>
               <div class="card-body">
-                <h5 class="card-title">Dark card title</h5>
+                <h5 class="card-title">عنوان کارت رنگ تیره</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
                 </p>
               </div>
             </div>
           </div>
           <button type="button" class="btn btn-primary" id="liveToastBtn">
-            Show live toast
+            نمایش زنده توست
           </button>
 
-          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+          <div class="toast-container position-fixed bottom-0 start-0 p-2">
             <div
               id="liveToast"
               class="toast"
@@ -716,31 +722,31 @@
                   class="rounded me-2"
                   alt="..."
                 />
-                <strong class="me-auto">Bootstrap</strong>
-                <small>11 mins ago</small>
+                <strong class="w-50 me-3">بوت استرپ</strong>
+                <small class="me-1 w-25">۱۱ دقیقه پیش</small>
                 <button
                   type="button"
-                  class="btn-close"
+                  class="btn-close d-inline-block mx-auto"
                   data-bs-dismiss="toast"
                   aria-label="Close"
                 ></button>
               </div>
               <div class="toast-body">
-                Hello, world! This is a toast message.
+                سلام ،دنیا! این یک پیام توست(toast message) هست .
               </div>
             </div>
           </div>
-          <div class="shadow-none p-3 mb-5 bg-body-tertiary rounded">
-            No shadow
+          <div class="shadow-none p-3 mt-5 mb-5 bg-body-tertiary rounded">
+            فاقد سایه
           </div>
           <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-            Small shadow
+            سایه سایز کوچک (sm)
           </div>
           <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-            Regular shadow
+            سایه سایز عادی
           </div>
           <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            Larger shadow
+            سایه سایز بزرگ (lg)
           </div>
         </div>
       </div>
@@ -847,11 +853,8 @@
                     alt=""
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>First Carousel Caption</h5>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nihil quam, eveniet illo aspernatur
-                    </p>
+                    <h5>اولین کپشن کورسل</h5>
+                    <p class="mb-5">لورم ایپسوم متن ساختگی قابل استفاده درون</p>
                   </div>
                 </div>
                 <div class="carousel-item">
@@ -861,7 +864,7 @@
                     alt=""
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Second Carousel Caption</h5>
+                    <h5>دومین کپشن کورسل</h5>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Nihil quam, eveniet illo aspernatur
@@ -913,32 +916,32 @@
         <div class="col-4 my-3">
           <ul class="list-group">
             <li class="list-group-item mb-2">
-              A simple default list group item
+              یک نمونه از لیست گروپ آیتم با رنگ پیش فرض
             </li>
 
             <li class="list-group-item list-group-item-primary mb-2">
-              A simple primary list group item
+              یک نمونه از لیست گروپ آیتم با رنگ اصلی
             </li>
             <li class="list-group-item list-group-item-secondary mb-2">
-              A simple secondary list group item
+              یک نمونه از لیست گروپ آیتم با رنگ ثانویه
             </li>
             <li class="list-group-item list-group-item-success mb-2">
-              A simple success list group item
+              یک نمونه از لیست گروپ آیتم با رنگ سبز
             </li>
             <li class="list-group-item list-group-item-danger mb-2">
-              A simple danger list group item
+              یک نمونه از لیست گروپ آیتم با رنگ قرمز
             </li>
             <li class="list-group-item list-group-item-warning mb-2">
-              A simple warning list group item
+              یک نمونه از لیست گروپ آیتم با رنگ زرد
             </li>
             <li class="list-group-item list-group-item-info mb-2">
-              A simple info list group item
+              یک نمونه از لیست گروپ آیتم با رنگ آبی کمرنگ
             </li>
             <li class="list-group-item list-group-item-light mb-2">
-              A simple light list group item
+              یک نمونه از لیست گروپ آیتم با رنگ روشن
             </li>
             <li class="list-group-item list-group-item-dark mb-2">
-              A simple dark list group item
+              یک نمونه از لیست گروپ آیتم با رنگ تیره
             </li>
           </ul>
         </div>
@@ -954,7 +957,7 @@
                 checked
               />
               <label class="form-check-label" for="firstRadio"
-                >First radio</label
+                >اولین آیتم رادیو</label
               >
             </li>
             <li class="list-group-item">
@@ -966,7 +969,7 @@
                 id="secondRadio"
               />
               <label class="form-check-label" for="secondRadio"
-                >Second radio</label
+                >دوم آیتم اینپوت رادیو</label
               >
             </li>
             <li class="list-group-item">
@@ -978,7 +981,7 @@
                 id="thirdRadio"
               />
               <label class="form-check-label" for="thirdRadio"
-                >Third radio</label
+                >سومین آیتم اینپوت رادیو</label
               >
             </li>
           </ul>
@@ -994,7 +997,7 @@
               <label
                 class="form-check-label stretched-link"
                 for="firstCheckboxStretched"
-                >First checkbox</label
+                >اولین چک باکس</label
               >
             </li>
             <li class="list-group-item">
@@ -1007,7 +1010,7 @@
               <label
                 class="form-check-label stretched-link"
                 for="secondCheckboxStretched"
-                >Second checkbox</label
+                >دومین چک باکس</label
               >
             </li>
             <li class="list-group-item">
@@ -1020,7 +1023,7 @@
               <label
                 class="form-check-label stretched-link"
                 for="thirdCheckboxStretched"
-                >Third checkbox</label
+                >سومین چک باکس</label
               >
             </li>
           </ul>
@@ -1046,39 +1049,67 @@
         </div>
         <div class="col-6">
           <p class="lh-1">
-            This is a long paragraph written to show how the line-height of an
-            element is affected by our utilities. Classes are applied to the
-            element itself or sometimes the parent element. These classes can be
-            customized as needed with our utility API.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
           </p>
           <p class="lh-sm">
-            This is a long paragraph written to show how the line-height of an
-            element is affected by our utilities. Classes are applied to the
-            element itself or sometimes the parent element. These classes can be
-            customized as needed with our utility API.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
           </p>
           <p class="lh-base">
-            This is a long paragraph written to show how the line-height of an
-            element is affected by our utilities. Classes are applied to the
-            element itself or sometimes the parent element. These classes can be
-            customized as needed with our utility API.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
           </p>
           <p class="lh-lg">
-            This is a long paragraph written to show how the line-height of an
-            element is affected by our utilities. Classes are applied to the
-            element itself or sometimes the parent element. These classes can be
-            customized as needed with our utility API.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
           </p>
         </div>
         <hr />
         <div class="col-3 my-3">
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded bg-primary h-25 w-25 m-1" alt="..." />
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-top bg-primary h-25 w-25 m-1" alt="..." />
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-end bg-primary h-25 w-25 m-1" alt="..." />
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-bottom bg-primary h-25 w-25 m-1" alt="..." />
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-start bg-primary h-25 w-25 m-1" alt="..." />
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-circle bg-primary h-25 w-25 m-1" alt="..." />
-          <img src="/assets/icon-svg/All/bulk/image.svg" class="rounded-pill bg-primary h-25 w-25 m-1" alt="..." />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded bg-dark h-auto w-25 m-1"
+            alt="..."
+          />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded-top bg-dark h-auto w-25 m-1"
+            alt="..."
+          />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded-end bg-dark h-auto w-25 m-1"
+            alt="..."
+          />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded-bottom bg-dark h-auto w-25 m-1"
+            alt="..."
+          />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded-start bg-dark h-auto w-25 m-1"
+            alt="..."
+          />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded-circle bg-dark h-auto w-25 m-1"
+            alt="..."
+          />
+          <img
+            src="/assets/icon-svg/All/bulk/image.svg"
+            class="rounded-pill bg-dark h-25 w-50 m-1"
+            alt="..."
+          />
         </div>
         <div class="col-3 my-3">
           <p class="text-warning bg-dark">.text-warning</p>
@@ -1092,32 +1123,45 @@
         </div>
         <div class="col-3 my-3">
           <div class="border border-success p-2 mb-2">
-            This is default success border
+            این یک بردر سبز پیش فرض است.
           </div>
           <div class="border border-success p-2 mb-2 border-opacity-75">
-            This is 75% opacity success border
+            این یک بردر سبز با روشنایی ۷۵٪ است
           </div>
           <div class="border border-success p-2 mb-2 border-opacity-50">
-            This is 50% opacity success border
+            این یک بردر سبز با روشنایی ۵۰٪ است
           </div>
           <div class="border border-success p-2 mb-2 border-opacity-25">
-            This is 25% opacity success border
+            این یک بردر سبز با روشنایی ۲۵٪ است
           </div>
           <div class="border border-success p-2 border-opacity-10">
-            This is 10% opacity success border
+            این یک بردر سبز با روشنایی ۱۰٪ است
           </div>
         </div>
         <div class="col-3 my-3">
-          <div class="text-primary">This is default primary text</div>
+          <div class="text-primary">این اولین متن پیش فرض با رنگ اصلی است</div>
           <div class="text-primary text-opacity-75">
-            This is 75% opacity primary text
+            این متن با روشنایی ۷۵٪ و رنگ اصلی است
           </div>
           <div class="text-primary text-opacity-50">
-            This is 50% opacity primary text
+            این متن با روشنایی ۵۰٪ و رنگ اصلی است
           </div>
           <div class="text-primary text-opacity-25">
-            This is 25% opacity primary text
+            این متن با روشنایی ۲۵٪ و رنگ اصلی است
           </div>
+          <hr class="m-3" />
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <h1>هدر شماره۱</h1>
+          <h2>هدر شماره ۲</h2>
+          <h3>هدر شماره ۳</h3>
+          <h4>هدر شماره ۴</h4>
+          <h5>هدر شماره ۵</h5>
+          <h6>هدر شماره ۶</h6>
+          <h7>هدر شماره ۷</h7>
         </div>
       </div>
     </div>

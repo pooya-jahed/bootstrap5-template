@@ -19,7 +19,7 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Nice, you triggered this alert message!', 'success')
+    appendAlert('عالی, شما روی این لایو آلرت کلیلک کردید!', 'primary')
   })
 }
  
